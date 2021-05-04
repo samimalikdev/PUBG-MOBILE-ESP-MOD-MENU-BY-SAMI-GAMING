@@ -7,6 +7,13 @@ LGL LATEST TEMPLATE 2.4
 TEMPLATE LINK
 https://github.com/LGLTeam/Android-Mod-Menu/tree/12f909400a81d10b33c9114bbb3851925bfbb167
 
+
+ADD THIS LINE IN smali/com/epicgames/ue4/GameActivity.Smali
+
+invoke-static {p0}, Luk/lgl/MainActivity;->Start(Landroid/content/Context;)V
+
+Don't add this in SplashActivity.Smali
+
 Creator = Sami Gaming
 
 Contact Us On
